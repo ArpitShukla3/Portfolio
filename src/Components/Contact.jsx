@@ -1,6 +1,6 @@
 import Lottie from "react-lottie";
 import contactAnimation from "../assets/contactAnimation.json"
-import { Linkedin, Twitter } from "../assets/postman";
+import { Linkedin, Twitter } from "../assets/CustomIcons";
 function Contact() {
     const defaultOptions = {
         loop: true,
