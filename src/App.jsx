@@ -10,7 +10,7 @@ import Project from './Components/Project'
 function App() {
   return (
     <div className=''>
-
+      <Navbar />
       <Intro />
       <AboutMe />
       <TechStack />

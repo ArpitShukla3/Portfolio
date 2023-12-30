@@ -26,7 +26,7 @@ export default function Intro() {
         <div className="bg-[#141416] lg:h-screen">
             <div className="mb-0- lg:flex  lg:flex-row-reverse lg:justify-around lg:items-center">
 
-                {window.innerWidth < 768 ? <div className="py-4 ">  <Lottie options={defaultOptions} height={"450px"} width={"450px"} /></div> : <div className="py-4 ">  <Lottie options={defaultOptions} height={"650px"} width={"650px"} /></div>}
+                {window.innerWidth < 600 ? <div className="py-4 ">  <Lottie options={defaultOptions} height={"450px"} width={"300px"} /></div> : <div className="py-4 ">  <Lottie options={defaultOptions} height={"650px"} width={"650px"} /></div>}
                 <div className="text-slate-50  py-20 px-2 text-center lg:w-96 lg:text-left 
                
                 ">

@@ -19,12 +19,14 @@ function Project({ repoLink, urlLink, information, type, heading, feature, built
          m-4
          rounded-s-xl
          text-center
+         w-auto
             ">
                 <div className=" text-left text-slate-300">
-                    <h3 className="text-gray-600">Url-Shortner</h3>
+                    <span className="text-gray-600">Url-Shortner</span>
                     <h1 className="font-black text-4xl">Linkly</h1>
-                    <p>Shortens your long links</p>
-                    <p><span>Built with:</span>ReactJS,Redux,Node,Javascript,CSS,vercel,MongoDb,Postman</p>
+                    <p>Shortens your long links<br /></p>
+                    <span className="overflow-hidden "><span className="font-black">Built with:</span>ReactJS,Redux,Node,<br />Javascript,CSS,vercel,MongoDb,Postman</span>
+                    <br />
                     <a href="https://github.com/ArpitShukla3/url-shortener" className="text-red-400 hover:animate-pulse hover:touch-pinch-zoom pr-6"><FontAwesomeIcon icon={faGitAlt} size="xs" style={{ color: "#8c929b", }} className="pr-4" />    <span>Get backend code</span> </a>
                     <br />
                     <a href="https://github.com/ArpitShukla3/url-Frontend" className="text-green-300  hover:animate-pulse"><FontAwesomeIcon icon={faGitAlt} size="xs" style={{ color: "#8c929b", }} className="pr-4" /><span>Get Frontend Code</span> </a>
@@ -32,9 +34,7 @@ function Project({ repoLink, urlLink, information, type, heading, feature, built
                     <a href="https://url-frontend-snowy.vercel.app/" className="text-yellow-400"><FontAwesomeIcon icon={faLink} size="xs" style={{ color: "#969696", }} className="pr-4" /><span>Try it</span> </a>
                 </div>
 
-                <div className="">
-                    <img src="https://res.cloudinary.com/dksi17o87/image/upload/v1703920134/linkly_hxkzpd.png" alt="hello" className="rounded-lg md:h-auto md:p-20 sm:w-3/4" />
-                </div>
+                <img src="https://res.cloudinary.com/dksi17o87/image/upload/v1703920134/linkly_hxkzpd.png" alt="hello" className="rounded-lg md:h-auto md:p-20 sm:w-3/4" />
             </div>
             <div className="flex
          flex-col
@@ -65,9 +65,7 @@ function Project({ repoLink, urlLink, information, type, heading, feature, built
                     <a href="https://chat-app-frontend-iota-pink.vercel.app/" className="text-yellow-400"><FontAwesomeIcon icon={faLink} size="xs" style={{ color: "#969696", }} className="pr-4" /><span>Try it</span> </a>
                 </div>
 
-                <div className="">
-                    <img src="https://res.cloudinary.com/dksi17o87/image/upload/v1703923273/Screenshot_2023-12-30_133049_yq3yhu.png" alt="hello" className="rounded-lg md:h-auto md:p-20 sm:w-3/4" />
-                </div>
+                <img src="https://res.cloudinary.com/dksi17o87/image/upload/v1703923273/Screenshot_2023-12-30_133049_yq3yhu.png" alt="hello" className="rounded-lg md:h-auto md:p-20 sm:w-3/4" />
             </div>
         </div>
     )

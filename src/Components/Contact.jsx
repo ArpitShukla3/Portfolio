@@ -13,8 +13,8 @@ function Contact() {
     return (
         <div className="h-screen  bg-[#141416] flex flex-col justify-between">
             <div className=" text-slate-100 flex flex-column lg:flex-row flex-col ">
-                {window.innerWidth < 768 ? <div className="py-4 ">  <Lottie options={defaultOptions} height={"400px"} width={"400px"} /></div> : <div className="py-4 ">  <Lottie options={defaultOptions} height={"650px"} width={"650px"} /></div>}
-                <div className="flex justify-center items-center lg:w-[600px] flex-col lg:text-left text-yellow-500">
+                {window.innerWidth < 768 ? <div className="py-4 ">  <Lottie options={defaultOptions} height={"400px"} width={"350px"} /></div> : <div className="py-4 ">  <Lottie options={defaultOptions} height={"650px"} width={"650px"} /></div>}
+                <div className="flex justify-center items-center lg:w-[600px] w-[350px] flex-col lg:text-left text-yellow-500">
                     What would you do if you had a software expert  available at your fingertips?
                     <br />
                     Want to start new project? Or just say hey.
