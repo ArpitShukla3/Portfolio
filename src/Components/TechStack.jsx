@@ -9,7 +9,7 @@ export default function TechStack() {
                 <p className="font-black text-4xl lg:text-6xl p-4">Skills&Experience</p>
                 <p className="p-4">The main area of expertise is full stack end development (client side of the web).</p>
 
-                <p className="p-4"> Building small and medium web applications with MERN tech, custom softwares, features and animations for learning purpose and enjoyment. I have also developed few full-stack projects, Do checkout my projects below. Thank You for your time</p>
+                <p className="p-4"> Building small and medium web applications with MERN tech, custom softwares, features and animations for learning purpose and enjoyment. I have also developed few full-stack projects, Do checkout my projects below. Thank You for your time.</p>
 
                 <p className="p-4">Visit my <a href="https://www.linkedin.com/in/arpit-shukla-270231247/" className='text-blue-500 hover:underline'>Linkedin</a> for more details.</p>
             </div>
