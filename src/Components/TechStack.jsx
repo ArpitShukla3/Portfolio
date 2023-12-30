@@ -1,4 +1,4 @@
-import { Postman, IconExpress, React, MongoDb, IconNode, VsCode, Tailwind, Bootstrap, Chakra, Linux, Css, Figma, Github, Git } from '../assets/postman';
+import { Postman, IconExpress, React, MongoDb, IconNode, VsCode, Tailwind, Bootstrap, Chakra, Linux, Css, Figma, Github, Git } from '../assets/postman.jsx';
 import Badge from './Badge'
 export default function TechStack() {
     const images = [<Postman />, <MongoDb />, <IconExpress />, <React />, <IconNode />, <VsCode />, <Tailwind />, <Bootstrap />, <Chakra />, <Linux />, <Css />, <Figma />, <Github />, <Git />]
